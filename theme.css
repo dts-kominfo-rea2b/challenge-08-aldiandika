@@ -1,0 +1,96 @@
+/*==============================
+/* Stylesheet 
+/* Aldi Andika Pratama
+/*============================== */
+
+
+body{
+  height: 99%;
+  width: 99%;
+  background-color: #978EC9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 1em;
+}
+
+#app{
+  width: 42em;
+  height: 36em;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+
+#todo-title{
+  font:600 2em sans-serif;
+  padding-bottom: 1em;
+  color: darkslategray;
+}
+
+#todo-subtitle{
+  font:400 1em sans-serif;
+  padding-bottom: 0.8em;
+  color: darkslategray;
+}
+
+#section-input{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Section Input  */
+#section-input #todo-input{
+  flex: 6;
+  padding: 12px;
+  border:0.5px solid darkslategray;
+  border-radius: 6px 0px 0px 6px;
+}
+
+#todo-submit{
+  flex: 1;
+  padding: 13px;
+  background-color: darkslategray;
+  color: white;
+  border:0px;
+  border-radius: 0px 6px 6px 0px;
+}
+
+#todo-submit:hover{
+  cursor: pointer;
+}
+
+/* Section Output */
+#section-output{
+  width:80%;
+  height: 32em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: scroll;
+}
+
+#section-output ul{
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li{
+  background-color: rgb(30, 81, 123);
+  padding: 12px;
+  color: whitesmoke;
+  font:400 1em sans-serif;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
